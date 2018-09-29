@@ -4,18 +4,18 @@ public class s_22 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		double S = 6;    // ¿µ±¹ ½Å¹ß »çÀÌÁî (255mm)
-		double P = 0.75; // 75% È÷Æ®ÇÒ È®·ü
-		double L = 200;  // 200ÆÄ¿îµå 
-		double T = 0;    // 0³â À¯Çà
-		double A = 1;    // À½ÁÖ·® 0ÀÜ
-		double Y = 2;    // Âø¿ë³âµµ
+		double S = 6;    // 6 ì˜êµ­ ì‹ ë°œ ì‚¬ì´ì¦ˆ (255mm)
+		double P = 0.75; // 75% (íˆíŠ¸ í•  í™•ë¥ )
+		double L = 200;  // 200íŒŒìš´ë“œ
+		double T = 0;    // 0ë…„ (ì˜¬í•´ ìœ í–‰)
+		double A = 1;    // ìŒì£¼ëŸ‰ 0ì”
+		double Y = 2;    // ì°©ìš©ë…„ë„
 		double ups1 = P*L*(Y+9);
 		double downs = (T+1)*(A+1)*(Y+10)*(L+20);
 		double ups2 = 12 + 3 * S / 8;
-		double high = ups1 / downs * ups2; // ¹àÇô³½ ½Ä
-		System.out.printf("Àû´çÇÑ ÇÏÀÌÈú ³ôÀÌ´Â %1$.2fcmÀÔ´Ï´Ù.", high);
-		   /* %1$´Â Ã¹ ¹øÂ° º¯¼ö high¸¦ 1$ À§Ä¡¿¡ ´ëÀÔÇÏ¶ó´Â ÀÇ¹Ì */
+		double high = ups1 / downs * ups2; // ë°í˜€ë‚¸ ì‹
+		System.out.printf("ì ë‹¹í•œ í•˜ì´í ë†’ì´ëŠ” %1$.2fcmì…ë‹ˆë‹¤.", high);
+		   /* %1$ëŠ” ì²« ë²ˆì§¸ ë³€ìˆ˜ highë¥¼ 1$ ìœ„ì¹˜ì— ëŒ€ì…í•˜ë¼ëŠ” ì˜ë¯¸ì´ë‹¤ */
 
 	}
 
