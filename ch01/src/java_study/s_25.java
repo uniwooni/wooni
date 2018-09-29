@@ -1,24 +1,24 @@
 package java_study;
 
-import java.util.Scanner; // Scanner´Â java.util ÆĞÅ°Áö¿¡ ÀÖ´Â Å¬·¡½ºÀÌ´Ù(ÀÔ·Â, Ãâ·Â)
+import java.util.Scanner; // ScannerëŠ” java.util íŒ¨í‚¤ì§€ì— ìˆëŠ” í´ë˜ìŠ¤ì´ë‹¤(ì…ë ¥, ì¶œë ¥)
 
 public class s_25 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner scanner = new Scanner(System.in); // Å°º¸µå
+		Scanner scanner = new Scanner(System.in); // í‚¤ë³´ë“œ
 		
-		System.out.println("Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
-        int choice = scanner.nextInt();           // Å°º¸µå·Î Á¤¼ö ÀÔ·Â
+		System.out.println("ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
+        int choice = scanner.nextInt();           // í‚¤ë³´ë“œë¡œ ì •ìˆ˜ ì…ë ¥
         System.out.println(choice);
         
-        System.out.println("½Ç¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
-        double rchoice = scanner.nextDouble();    // ½Ç¼ö ÀÔ·Â
+        System.out.println("ì‹¤ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
+        double rchoice = scanner.nextDouble();    // ì •ìˆ˜ ì…ë ¥
         System.out.println(rchoice);
         
-        System.out.println("¹®ÀÚ¿­À» ÀÔ·ÂÇÏ¼¼¿ä.");
-        String schoice = scanner.next();          // ¹®ÀÚ¿­ ÀÔ·Â
+        System.out.println("ë¬¸ìì—´ì„ ì…ë ¥í•˜ì„¸ìš”.");
+        String schoice = scanner.next();          // ë¬¸ìì—´ ì…ë ¥
         System.out.println(schoice);
-        
+	}
 
 }
